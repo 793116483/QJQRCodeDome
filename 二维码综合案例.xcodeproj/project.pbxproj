@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20E306C2395DAED0076AD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E306B2395DAED0076AD04 /* AppDelegate.swift */; };
+		F20E30702395DAED0076AD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E306F2395DAED0076AD04 /* ViewController.swift */; };
+		F20E30732395DAED0076AD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20E30712395DAED0076AD04 /* Main.storyboard */; };
+		F20E30762395DAED0076AD04 /* _______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F20E30742395DAED0076AD04 /* _______.xcdatamodeld */; };
+		F20E30782395DAEE0076AD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20E30772395DAEE0076AD04 /* Assets.xcassets */; };
+		F20E307B2395DAEE0076AD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20E30792395DAEE0076AD04 /* LaunchScreen.storyboard */; };
+		F20E30862395DAEE0076AD04 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30852395DAEE0076AD04 /* _______Tests.swift */; };
+		F20E30912395DAEE0076AD04 /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30902395DAEE0076AD04 /* _______UITests.swift */; };
+		F20E30AC2395DDBC0076AD04 /* CreateQRCodelVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30AB2395DDBC0076AD04 /* CreateQRCodelVc.swift */; };
+		F20E30AE2395DDD70076AD04 /* DiscernQRCodeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30AD2395DDD70076AD04 /* DiscernQRCodeVc.swift */; };
+		F20E30B02395DDEF0076AD04 /* ScanQRCodeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30AF2395DDEF0076AD04 /* ScanQRCodeVc.swift */; };
+		F20E30B22395EBEF0076AD04 /* erha.png in Resources */ = {isa = PBXBuildFile; fileRef = F20E30B12395EBEF0076AD04 /* erha.png */; };
+		F20E30B42395F10A0076AD04 /* DiscernQRCode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20E30B32395F10A0076AD04 /* DiscernQRCode.jpg */; };
+		F20E30B8239603430076AD04 /* 201804191342034618.png in Resources */ = {isa = PBXBuildFile; fileRef = F20E30B7239603430076AD04 /* 201804191342034618.png */; };
+		F20E30BA239608910076AD04 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30B9239608910076AD04 /* ScanView.swift */; };
+		F20E30BF239608DA0076AD04 /* qrcode_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20E30BC239608DA0076AD04 /* qrcode_border@2x.png */; };
+		F20E30C0239608DA0076AD04 /* qrcode_scanline_qrcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20E30BD239608DA0076AD04 /* qrcode_scanline_qrcode@2x.png */; };
+		F20E30C1239608DA0076AD04 /* qrcode_scanline_qrcode@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20E30BE239608DA0076AD04 /* qrcode_scanline_qrcode@3x.png */; };
+		F20E30C723967F540076AD04 /* QJQRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20E30C623967F540076AD04 /* QJQRCodeTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20E30822395DAEE0076AD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20E30602395DAED0076AD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20E30672395DAED0076AD04;
+			remoteInfo = "二维码综合案例";
+		};
+		F20E308D2395DAEE0076AD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20E30602395DAED0076AD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20E30672395DAED0076AD04;
+			remoteInfo = "二维码综合案例";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F20E30682395DAED0076AD04 /* 二维码综合案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码综合案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20E306B2395DAED0076AD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F20E306F2395DAED0076AD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F20E30722395DAED0076AD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F20E30752395DAED0076AD04 /* _______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_______.xcdatamodel"; sourceTree = "<group>"; };
+		F20E30772395DAEE0076AD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20E307A2395DAEE0076AD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F20E307C2395DAEE0076AD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20E30812395DAEE0076AD04 /* 二维码综合案例Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码综合案例Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20E30852395DAEE0076AD04 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		F20E30872395DAEE0076AD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20E308C2395DAEE0076AD04 /* 二维码综合案例UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码综合案例UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20E30902395DAEE0076AD04 /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
+		F20E30922395DAEE0076AD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20E30AB2395DDBC0076AD04 /* CreateQRCodelVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQRCodelVc.swift; sourceTree = "<group>"; };
+		F20E30AD2395DDD70076AD04 /* DiscernQRCodeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscernQRCodeVc.swift; sourceTree = "<group>"; };
+		F20E30AF2395DDEF0076AD04 /* ScanQRCodeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRCodeVc.swift; sourceTree = "<group>"; };
+		F20E30B12395EBEF0076AD04 /* erha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erha.png; sourceTree = "<group>"; };
+		F20E30B32395F10A0076AD04 /* DiscernQRCode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DiscernQRCode.jpg; sourceTree = "<group>"; };
+		F20E30B7239603430076AD04 /* 201804191342034618.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 201804191342034618.png; sourceTree = "<group>"; };
+		F20E30B9239608910076AD04 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		F20E30BC239608DA0076AD04 /* qrcode_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_border@2x.png"; sourceTree = "<group>"; };
+		F20E30BD239608DA0076AD04 /* qrcode_scanline_qrcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scanline_qrcode@2x.png"; sourceTree = "<group>"; };
+		F20E30BE239608DA0076AD04 /* qrcode_scanline_qrcode@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scanline_qrcode@3x.png"; sourceTree = "<group>"; };
+		F20E30C623967F540076AD04 /* QJQRCodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJQRCodeTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20E30652395DAED0076AD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20E307E2395DAEE0076AD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20E30892395DAEE0076AD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20E305F2395DAED0076AD04 = {
+			isa = PBXGroup;
+			children = (
+				F20E306A2395DAED0076AD04 /* 二维码综合案例 */,
+				F20E30842395DAEE0076AD04 /* 二维码综合案例Tests */,
+				F20E308F2395DAEE0076AD04 /* 二维码综合案例UITests */,
+				F20E30692395DAED0076AD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20E30692395DAED0076AD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30682395DAED0076AD04 /* 二维码综合案例.app */,
+				F20E30812395DAEE0076AD04 /* 二维码综合案例Tests.xctest */,
+				F20E308C2395DAEE0076AD04 /* 二维码综合案例UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20E306A2395DAED0076AD04 /* 二维码综合案例 */ = {
+			isa = PBXGroup;
+			children = (
+				F20E309E2395DD480076AD04 /* Class */,
+				F20E306B2395DAED0076AD04 /* AppDelegate.swift */,
+				F20E306F2395DAED0076AD04 /* ViewController.swift */,
+				F20E30712395DAED0076AD04 /* Main.storyboard */,
+				F20E30772395DAEE0076AD04 /* Assets.xcassets */,
+				F20E30792395DAEE0076AD04 /* LaunchScreen.storyboard */,
+				F20E307C2395DAEE0076AD04 /* Info.plist */,
+				F20E30742395DAED0076AD04 /* _______.xcdatamodeld */,
+			);
+			path = "二维码综合案例";
+			sourceTree = "<group>";
+		};
+		F20E30842395DAEE0076AD04 /* 二维码综合案例Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30852395DAEE0076AD04 /* _______Tests.swift */,
+				F20E30872395DAEE0076AD04 /* Info.plist */,
+			);
+			path = "二维码综合案例Tests";
+			sourceTree = "<group>";
+		};
+		F20E308F2395DAEE0076AD04 /* 二维码综合案例UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30902395DAEE0076AD04 /* _______UITests.swift */,
+				F20E30922395DAEE0076AD04 /* Info.plist */,
+			);
+			path = "二维码综合案例UITests";
+			sourceTree = "<group>";
+		};
+		F20E309E2395DD480076AD04 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30C2239672E20076AD04 /* Other */,
+				F20E30A32395DD480076AD04 /* CreateQRCode(创建二维码) */,
+				F20E30A72395DD480076AD04 /* DiscernQRCode(识别图中二维码) */,
+				F20E309F2395DD480076AD04 /* ScanQRCode(扫描二维码) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F20E309F2395DD480076AD04 /* ScanQRCode(扫描二维码) */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30BB239608DA0076AD04 /* QRCodeScanImage */,
+				F20E30A02395DD480076AD04 /* Model */,
+				F20E30A12395DD480076AD04 /* View */,
+				F20E30A22395DD480076AD04 /* ViewController */,
+			);
+			path = "ScanQRCode(扫描二维码)";
+			sourceTree = "<group>";
+		};
+		F20E30A02395DD480076AD04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F20E30A12395DD480076AD04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30B9239608910076AD04 /* ScanView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F20E30A22395DD480076AD04 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30AF2395DDEF0076AD04 /* ScanQRCodeVc.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F20E30A32395DD480076AD04 /* CreateQRCode(创建二维码) */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30B12395EBEF0076AD04 /* erha.png */,
+				F20E30A42395DD480076AD04 /* Controller */,
+				F20E30A52395DD480076AD04 /* Model */,
+				F20E30A62395DD480076AD04 /* View */,
+			);
+			path = "CreateQRCode(创建二维码)";
+			sourceTree = "<group>";
+		};
+		F20E30A42395DD480076AD04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30AB2395DDBC0076AD04 /* CreateQRCodelVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F20E30A52395DD480076AD04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F20E30A62395DD480076AD04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F20E30A72395DD480076AD04 /* DiscernQRCode(识别图中二维码) */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30B7239603430076AD04 /* 201804191342034618.png */,
+				F20E30B32395F10A0076AD04 /* DiscernQRCode.jpg */,
+				F20E30A82395DD480076AD04 /* ViewCtroller */,
+				F20E30A92395DD480076AD04 /* Model */,
+				F20E30AA2395DD480076AD04 /* View */,
+			);
+			path = "DiscernQRCode(识别图中二维码)";
+			sourceTree = "<group>";
+		};
+		F20E30A82395DD480076AD04 /* ViewCtroller */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30AD2395DDD70076AD04 /* DiscernQRCodeVc.swift */,
+			);
+			path = ViewCtroller;
+			sourceTree = "<group>";
+		};
+		F20E30A92395DD480076AD04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F20E30AA2395DD480076AD04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F20E30BB239608DA0076AD04 /* QRCodeScanImage */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30BC239608DA0076AD04 /* qrcode_border@2x.png */,
+				F20E30BD239608DA0076AD04 /* qrcode_scanline_qrcode@2x.png */,
+				F20E30BE239608DA0076AD04 /* qrcode_scanline_qrcode@3x.png */,
+			);
+			path = QRCodeScanImage;
+			sourceTree = "<group>";
+		};
+		F20E30C2239672E20076AD04 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30C3239672E20076AD04 /* Tools */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F20E30C3239672E20076AD04 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F20E30C623967F540076AD04 /* QJQRCodeTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20E30672395DAED0076AD04 /* 二维码综合案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20E30952395DAEE0076AD04 /* Build configuration list for PBXNativeTarget "二维码综合案例" */;
+			buildPhases = (
+				F20E30642395DAED0076AD04 /* Sources */,
+				F20E30652395DAED0076AD04 /* Frameworks */,
+				F20E30662395DAED0076AD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二维码综合案例";
+			productName = "二维码综合案例";
+			productReference = F20E30682395DAED0076AD04 /* 二维码综合案例.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20E30802395DAEE0076AD04 /* 二维码综合案例Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20E30982395DAEE0076AD04 /* Build configuration list for PBXNativeTarget "二维码综合案例Tests" */;
+			buildPhases = (
+				F20E307D2395DAEE0076AD04 /* Sources */,
+				F20E307E2395DAEE0076AD04 /* Frameworks */,
+				F20E307F2395DAEE0076AD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20E30832395DAEE0076AD04 /* PBXTargetDependency */,
+			);
+			name = "二维码综合案例Tests";
+			productName = "二维码综合案例Tests";
+			productReference = F20E30812395DAEE0076AD04 /* 二维码综合案例Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F20E308B2395DAEE0076AD04 /* 二维码综合案例UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20E309B2395DAEE0076AD04 /* Build configuration list for PBXNativeTarget "二维码综合案例UITests" */;
+			buildPhases = (
+				F20E30882395DAEE0076AD04 /* Sources */,
+				F20E30892395DAEE0076AD04 /* Frameworks */,
+				F20E308A2395DAEE0076AD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20E308E2395DAEE0076AD04 /* PBXTargetDependency */,
+			);
+			name = "二维码综合案例UITests";
+			productName = "二维码综合案例UITests";
+			productReference = F20E308C2395DAEE0076AD04 /* 二维码综合案例UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20E30602395DAED0076AD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = yiniu;
+				TargetAttributes = {
+					F20E30672395DAED0076AD04 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F20E30802395DAEE0076AD04 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F20E30672395DAED0076AD04;
+					};
+					F20E308B2395DAEE0076AD04 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F20E30672395DAED0076AD04;
+					};
+				};
+			};
+			buildConfigurationList = F20E30632395DAED0076AD04 /* Build configuration list for PBXProject "二维码综合案例" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20E305F2395DAED0076AD04;
+			productRefGroup = F20E30692395DAED0076AD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20E30672395DAED0076AD04 /* 二维码综合案例 */,
+				F20E30802395DAEE0076AD04 /* 二维码综合案例Tests */,
+				F20E308B2395DAEE0076AD04 /* 二维码综合案例UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20E30662395DAED0076AD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E30BF239608DA0076AD04 /* qrcode_border@2x.png in Resources */,
+				F20E30C1239608DA0076AD04 /* qrcode_scanline_qrcode@3x.png in Resources */,
+				F20E30C0239608DA0076AD04 /* qrcode_scanline_qrcode@2x.png in Resources */,
+				F20E307B2395DAEE0076AD04 /* LaunchScreen.storyboard in Resources */,
+				F20E30B42395F10A0076AD04 /* DiscernQRCode.jpg in Resources */,
+				F20E30782395DAEE0076AD04 /* Assets.xcassets in Resources */,
+				F20E30732395DAED0076AD04 /* Main.storyboard in Resources */,
+				F20E30B8239603430076AD04 /* 201804191342034618.png in Resources */,
+				F20E30B22395EBEF0076AD04 /* erha.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20E307F2395DAEE0076AD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20E308A2395DAEE0076AD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20E30642395DAED0076AD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E30BA239608910076AD04 /* ScanView.swift in Sources */,
+				F20E30702395DAED0076AD04 /* ViewController.swift in Sources */,
+				F20E30762395DAED0076AD04 /* _______.xcdatamodeld in Sources */,
+				F20E30C723967F540076AD04 /* QJQRCodeTool.swift in Sources */,
+				F20E306C2395DAED0076AD04 /* AppDelegate.swift in Sources */,
+				F20E30AE2395DDD70076AD04 /* DiscernQRCodeVc.swift in Sources */,
+				F20E30AC2395DDBC0076AD04 /* CreateQRCodelVc.swift in Sources */,
+				F20E30B02395DDEF0076AD04 /* ScanQRCodeVc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20E307D2395DAEE0076AD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E30862395DAEE0076AD04 /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20E30882395DAEE0076AD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E30912395DAEE0076AD04 /* _______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20E30832395DAEE0076AD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20E30672395DAED0076AD04 /* 二维码综合案例 */;
+			targetProxy = F20E30822395DAEE0076AD04 /* PBXContainerItemProxy */;
+		};
+		F20E308E2395DAEE0076AD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20E30672395DAED0076AD04 /* 二维码综合案例 */;
+			targetProxy = F20E308D2395DAEE0076AD04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F20E30712395DAED0076AD04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20E30722395DAED0076AD04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F20E30792395DAEE0076AD04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20E307A2395DAEE0076AD04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20E30932395DAEE0076AD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20E30942395DAEE0076AD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20E30962395DAEE0076AD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "二维码综合案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F20E30972395DAEE0076AD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "二维码综合案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F20E30992395DAEE0076AD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "二维码综合案例Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二维码综合案例.app/二维码综合案例";
+			};
+			name = Debug;
+		};
+		F20E309A2395DAEE0076AD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "二维码综合案例Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二维码综合案例.app/二维码综合案例";
+			};
+			name = Release;
+		};
+		F20E309C2395DAEE0076AD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "二维码综合案例UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "二维码综合案例";
+			};
+			name = Debug;
+		};
+		F20E309D2395DAEE0076AD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "二维码综合案例UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "二维码综合案例";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20E30632395DAED0076AD04 /* Build configuration list for PBXProject "二维码综合案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20E30932395DAEE0076AD04 /* Debug */,
+				F20E30942395DAEE0076AD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20E30952395DAEE0076AD04 /* Build configuration list for PBXNativeTarget "二维码综合案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20E30962395DAEE0076AD04 /* Debug */,
+				F20E30972395DAEE0076AD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20E30982395DAEE0076AD04 /* Build configuration list for PBXNativeTarget "二维码综合案例Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20E30992395DAEE0076AD04 /* Debug */,
+				F20E309A2395DAEE0076AD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20E309B2395DAEE0076AD04 /* Build configuration list for PBXNativeTarget "二维码综合案例UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20E309C2395DAEE0076AD04 /* Debug */,
+				F20E309D2395DAEE0076AD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F20E30742395DAED0076AD04 /* _______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F20E30752395DAED0076AD04 /* _______.xcdatamodel */,
+			);
+			currentVersion = F20E30752395DAED0076AD04 /* _______.xcdatamodel */;
+			path = "_______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F20E30602395DAED0076AD04 /* Project object */;
+}
